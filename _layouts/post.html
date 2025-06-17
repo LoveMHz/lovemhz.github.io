@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8 post post-single">
+            <! -- Blog Post  -->
+            {% if page.image %}
+                <p><img class="img-responsive img-header" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.image }}"></p>
+            {% endif %}
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+
+            {{ content }}
+
+            <div class="spacing"></div>
+            <!-- <h6>SHARE:</h6>
+            <p class="share">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </p> -->
+
+            <hr />
+            <div class="spacing"></div>
+
+            {% if page.comments == true %}
+                {% include disqus.html %}
+            {% endif %}
+
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->

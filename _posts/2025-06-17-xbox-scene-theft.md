@@ -193,7 +193,7 @@ These individuals have repeatedly shown a disregard for intellectual property, c
 actions are not isolated incidents. They are part of a long-running pattern of theft.
 
 ### Moderators of r/originalxbox
-I'm calling out the moderators of the Xbox Modding subreddit: Derf_Jagged, TXCrunchBite, OGXboxGamer, GoTeamScotch,
+I'm calling out the moderators of the Original Xbox subreddit: Derf_Jagged, TXCrunchBite, OGXboxGamer, GoTeamScotch,
 AlbinoSheepDawg, KeepForgettingLogin, awesomesprime, Random_Shadowscale, DivideByZer0, and ulubulu.
 
 These moderators continue to allow harassment, misinformation campaigns, and the promotion of stolen work. Some have even

@@ -130,8 +130,9 @@ to compete with shortcuts, and that drives real progress out of the scene.
 
 ## What Needs To Change?
 - Stop misleading users into thinking Modxo, PrometheOS, and CERBIOS are open source. Modxo was once open source but now
-uses a restrictive license (non FOSS). PrometheOS is not an operating system; it is an Xbox application built using a
-stolen SDK and a stolen BIOS. CERBIOS is closed source and built on leaked kernel code along with stolen work from others.
+uses a restrictive license (non FOSS). [1](/assets/img/blog/xbox-scene-theft/changes/24.jpg) [2](/assets/img/blog/xbox-scene-theft/changes/25.jpg)
+PrometheOS is not an operating system; it is an Xbox application built using a stolen SDK and a stolen BIOS. CERBIOS is
+closed source and built on leaked kernel code along with stolen work from others.
 [1](/assets/img/blog/xbox-scene-theft/changes/1.jpg)
 [2](/assets/img/blog/xbox-scene-theft/changes/15.jpg)
 [3](/assets/img/blog/xbox-scene-theft/changes/16.jpg)

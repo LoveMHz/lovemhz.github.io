@@ -146,7 +146,9 @@ Public reverse engineering of XboxHD+ continues to guide its development.
 [1](/assets/img/blog/xbox-scene-theft/changes/2.jpg)
 [2](/assets/img/blog/xbox-scene-theft/changes/3.jpg)
 [3](/assets/img/blog/xbox-scene-theft/changes/4.jpg)
-[4](/assets/img/blog/xbox-scene-theft/changes/5.jpg)
+[4](/assets/img/blog/xbox-scene-theft/changes/5.jpg)<br /><br />
+**Clarification:** We’re not accusing Harcroft or OXHD of infringement. Separately, the idea of a BIOS-free HDMI mod
+isn’t feasible with the current hardware, there’s no encoder, only a HDMI transmitter. See clarification at the end.<br /><br />
 
 - End the repeated attempts to clone the XboxHD+.
 [1](/assets/img/blog/xbox-scene-theft/changes/6.jpg)
@@ -188,7 +190,7 @@ This is only a small part of the harassment, theft, and misinformation we have d
 
 ### Cerbios / Team Resurgent
 I'm calling out Cerbios / Team Resurgent. This includes all of its members: EqUiNoX, HoRnEyDvL, Hazeno, Dempsey_86, and
-Harcroft. [1](/assets/img/blog/xbox-scene-theft/who/1.jpg)
+Harcroft (who has stated they are not affiliated with the team; see clarification at the end). [1](/assets/img/blog/xbox-scene-theft/who/1.jpg)
 
 These individuals have repeatedly shown a disregard for intellectual property, copyright, and the work of others. Their
 actions are not isolated incidents. They are part of a long-running pattern of theft.
@@ -685,3 +687,21 @@ I will keep going. I will keep improving Project Stellar, supporting XboxHD+, an
 If you believe in that too, thank you for being here.
 
 This is only part one.
+
+# Clarifications
+**Technical Note on BIOS-Free HDMI Claims:**
+We also want to address the ongoing claims that a future HDMI mod could work without any BIOS modification. From a
+technical standpoint, this isn’t feasible. The current hardware uses a HDMI transmitter, not a full HDMI encoder.
+Without a proper encoder, hardware alone can’t generate a valid HDMI signal. While some limited DVI-style output
+is possible under specific conditions, it’s not a blanket solution for the Xbox’s video output.
+
+**Clarification on OXHD and Harcroft:**
+- We are not accusing Harcroft or the OXHD project of infringing on our work. The concern stems from the fact that OXHD
+is being developed within the same community spaces as Team Resurgent, Team Cerbios, and  Team Foxbat. While that doesn’t
+imply direct involvement, it does create an environment where boundaries between original work and copied efforts can be
+blurred.
+
+**Team Resurgent Team Members:**
+- Harcroft has stated they are not affiliated with Team Resurgent. An
+[earlier software release](https://github.com/Team-Resurgent/CerbiosTool/blob/V1.0.11/README.md) has them listed as part
+of the team, which may have contributed to confusion.

@@ -690,7 +690,7 @@ This is only part one.
 
 # Clarifications
 **Technical Note on BIOS-Free HDMI Claims:**
-We also want to address the ongoing claims that a future HDMI mod could work without any BIOS modification. From a
+- We also want to address the ongoing claims that a future HDMI mod could work without any BIOS modification. From a
 technical standpoint, this isn’t feasible. The current hardware uses a HDMI transmitter, not a full HDMI encoder.
 Without a proper encoder, hardware alone can’t generate a valid HDMI signal. While some limited DVI-style output
 is possible under specific conditions, it’s not a blanket solution for the Xbox’s video output.

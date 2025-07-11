@@ -22,6 +22,9 @@ why I am writing it now, I need to provide some history.
 
 <!--more-->
 
+### Corrections and Updates
+[Corrections and updates](/blog/xbox-scene-theft-part-1-corrections/) for this post can be found here.
+
 ## Backstory
 
 My journey with the original Xbox began about six years ago, inspired by the HDMI mods I had seen for systems like the
@@ -139,22 +142,6 @@ closed source and built on leaked kernel code along with stolen work from others
 [4](/assets/img/blog/xbox-scene-theft/changes/17.jpg)
 [5](/assets/img/blog/xbox-scene-theft/changes/18.jpg)
 
-- Stop promoting the idea that an open-source HDMI mod like OXHD is going to exist. XboxHD+ is a software project made
-possible through years of development and still continues to this day. Claiming OXHD will be open source is dishonest
-when it depends on CERBIOS to function and is being developed alongside the same people who have cloned our work before.
-Public reverse engineering of XboxHD+ continues to guide its development.
-[1](/assets/img/blog/xbox-scene-theft/changes/2.jpg)
-[2](/assets/img/blog/xbox-scene-theft/changes/3.jpg)
-[3](/assets/img/blog/xbox-scene-theft/changes/4.jpg)
-[4](/assets/img/blog/xbox-scene-theft/changes/5.jpg)<br /><br />
-**Clarification:** We’re not accusing Harcroft or OXHD of infringement. Separately, the idea of a BIOS-free HDMI mod
-isn’t feasible with the current hardware, there’s no encoder, only a HDMI transmitter. See clarification at the end.<br /><br />
-
-- End the repeated attempts to clone the XboxHD+.
-[1](/assets/img/blog/xbox-scene-theft/changes/6.jpg)
-[2](/assets/img/blog/xbox-scene-theft/changes/11.jpg)
-[3](/assets/img/blog/xbox-scene-theft/changes/14.jpg)
-
 - Stop encouraging theft of the XboxHD+ and Legacy kit by telling customers to "just find the firmware."
 [1](/assets/img/blog/xbox-scene-theft/changes/23.jpg)
 
@@ -162,9 +149,6 @@ isn’t feasible with the current hardware, there’s no encoder, only a HDMI tr
 [1](/assets/img/blog/xbox-scene-theft/changes/9.jpg)
 [2](/assets/img/blog/xbox-scene-theft/changes/8.jpg)
 [3](/assets/img/blog/xbox-scene-theft/changes/10.jpg)
-
-- Stop selling products based on our work while knowingly violating the license it was released under.
-[1](/assets/img/blog/xbox-scene-theft/changes/7.jpg)
 
 - Developers should stop claiming they are not stealing while at the same time publishing guides that explain how to do
 exactly that.
@@ -189,8 +173,7 @@ This is only a small part of the harassment, theft, and misinformation we have d
 ## Who?
 
 ### Cerbios / Team Resurgent
-I'm calling out Cerbios / Team Resurgent. This includes all of its members: EqUiNoX, HoRnEyDvL, Hazeno, Dempsey_86, and
-Harcroft (who has stated they are not affiliated with the team; see clarification at the end). [1](/assets/img/blog/xbox-scene-theft/who/1.jpg)
+I'm calling out Cerbios / Team Resurgent. This includes all of its members: EqUiNoX, HoRnEyDvL, Hazeno, and Dempsey_86.
 
 These individuals have repeatedly shown a disregard for intellectual property, copyright, and the work of others. Their
 actions are not isolated incidents. They are part of a long-running pattern of theft.
@@ -434,7 +417,7 @@ tool supported all drive variants over IDE from a running system.
 Even more significant, this was an entirely new side channel attack that allowed drive unlocking to be performed directly
 over the IDE bus.
 
-Later that same day, Harcroft, a member of the Xbox Data Preservation Discord, Team Resurgent, and other related projects,
+Later that same day, Harcroft, a member of the Xbox Data Preservation Discord and other related projects,
 publicly replied to our announcement, stating:
 
 ``We've been doing this for the better part of a year with free software tools and $2 USB/TTL boards.``
@@ -453,7 +436,6 @@ already been available in the scene for some time.
 
 <p style="text-align:center">Public Chat on Jan. 8th 2024 - Xbox Data Preservation Discord</p>
 
-- If you truly knew how it worked, why would you suggest using a logic analyzer to capture the commands?
 - If you're not reverse engineering Project Stellar, how would you know that the unlocking logic was moved to a separate XBE?
 
 ![Chat](/assets/img/blog/xbox-scene-theft/hdd-unlock/4.jpg)
@@ -477,9 +459,6 @@ are provided by the stolen XDK environment.
 ![Chat](/assets/img/blog/xbox-scene-theft/hdd-unlock/12.jpg)
 <p style="text-align:center">Public Chat on March 1st 2024 - Xbox Data Preservation Discord</p>
 <br />
-
-![Twitter Post](/assets/img/blog/xbox-scene-theft/hdd-unlock/7.jpg)
-<p style="text-align:center">NFO Release</p>
 
 ## Theft in Plain Sight
 In this section, we’ll present direct comparisons between disassembled code from Project Stellar and PrometheOS, showing
@@ -540,16 +519,6 @@ then lightly restructured to appear different.
 
 I don’t believe [Dream](https://maxcandocia.com/blog/2020/Dec/19/dream-power/) is a developer for PrometheOS when they’re
 not playing Minecraft. And I don’t believe this code was written independently.
-
-## Where Does the Theft End?
-If Team Resurgent and the Xbox Data Preservation Discord are willing to take stolen work and pass it off as their own,
-what’s stopping them from helping push that same stolen functionality into commercial products?
-
-Below is a screenshot from a [paid software product](https://web.archive.org/web/20250618035411/https://fatxplorer.eaton-works.com/2024/05/31/fatxplorer-3-0-beta-31-password-recovery-for-og-xbox-western-digital-drives/) that thanks the Xbox Data Preservation Discord for their help in
-adding HDD unlocking support.
-
-![FATXplorer](/assets/img/blog/xbox-scene-theft/hdd-unlock/11.jpg)
-<p style="text-align:center">&nbsp;</p>
 
 # Theft of CPU Upgrade Support
 
@@ -687,21 +656,3 @@ I will keep going. I will keep improving Project Stellar, supporting XboxHD+, an
 If you believe in that too, thank you for being here.
 
 This is only part one.
-
-# Clarifications
-**Technical Note on BIOS-Free HDMI Claims:**
-- We also want to address the ongoing claims that a future HDMI mod could work without any BIOS modification. From a
-technical standpoint, this isn’t feasible. The current hardware uses a HDMI transmitter, not a full HDMI encoder.
-Without a proper encoder, hardware alone can’t generate a valid HDMI signal. While some limited DVI-style output
-is possible under specific conditions, it’s not a blanket solution for the Xbox’s video output.
-
-**Clarification on OXHD and Harcroft:**
-- We are not accusing Harcroft or the OXHD project of infringing on our work. The concern stems from the fact that OXHD
-is being developed within the same community spaces as Team Resurgent, Team Cerbios, and  Team Foxbat. While that doesn’t
-imply direct involvement, it does create an environment where boundaries between original work and copied efforts can be
-blurred.
-
-**Team Resurgent Team Members:**
-- Harcroft has stated they are not affiliated with Team Resurgent. An
-[earlier software release](https://github.com/Team-Resurgent/CerbiosTool/blob/V1.0.11/README.md) has them listed as part
-of the team, which may have contributed to confusion.
